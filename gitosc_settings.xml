@@ -1,0 +1,6 @@
+<application>
+  <component name="GitoscSettings">
+    <option name="HOST" value="gitee.com/deyainvest" />
+    <option name="AUTH_TYPE" value="TOKEN" />
+  </component>
+</application>
