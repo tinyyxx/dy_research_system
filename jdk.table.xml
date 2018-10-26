@@ -1,0 +1,215 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.5 (test)" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.4" />
+      <homePath value="C:\Users\Leo\PycharmProjects\test\venv\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Program Files/python3.5/DLLs" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/Lib" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/test/venv" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/test/venv/Lib/site-packages" type="simple" />
+            <root url="jar://$USER_HOME$/PycharmProjects/test/venv/Lib/site-packages/setuptools-28.8.0-py3.5.egg!/" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/test/venv/Lib/site-packages/pip-9.0.1-py3.5.egg" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1707211871" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/test" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.5 (article)" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.4" />
+      <homePath value="D:\work\Envs\article\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Envs/article/Lib" type="simple" />
+            <root url="file://D:/work/Envs/article/Scripts" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/Lib" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/DLLs" type="simple" />
+            <root url="file://D:/work/Envs/article" type="simple" />
+            <root url="file://D:/work/Envs/article/Lib/site-packages" type="simple" />
+            <root url="file://D:/work/Envs/article/Lib/site-packages/win32" type="simple" />
+            <root url="file://D:/work/Envs/article/Lib/site-packages/win32/lib" type="simple" />
+            <root url="file://D:/work/Envs/article/Lib/site-packages/pythonwin" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/149009572" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="D:/work/code/article" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.5 (article) (1)" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.4" />
+      <homePath value="D:\work\code\article\venv\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Program Files/python3.5/DLLs" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/Lib" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/Lib/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1818997367" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="D:/work/code/article" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.5 (VueShop)" />
+      <type value="Python SDK" />
+      <version value="Python 3.5.4" />
+      <homePath value="D:\work\code\VueShop\venv\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Program Files/python3.5/DLLs" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5/Lib" type="simple" />
+            <root url="file://D:/work/Program Files/python3.5" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1680428047" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="D:/work/code/VueShop" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6 (VueShop)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.2" />
+      <homePath value="D:\work\Envs\VueShop\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Envs/VueShop/Lib" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Scripts" type="simple" />
+            <root url="file://C:/Program Files/Python36/Lib" type="simple" />
+            <root url="file://C:/Program Files/Python36/DLLs" type="simple" />
+            <root url="file://D:/work/Envs/VueShop" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Lib/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/387791454" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="D:/work/code/VueShop" />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6 (VueShop) (1)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.2" />
+      <homePath value="D:\work\Envs\VueShop\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Envs/VueShop/Lib" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Scripts" type="simple" />
+            <root url="file://C:/Program Files/Python36/Lib" type="simple" />
+            <root url="file://C:/Program Files/Python36/DLLs" type="simple" />
+            <root url="file://D:/work/Envs/VueShop" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Lib/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/387791454" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Python 3.6 (VueShop) (2)" />
+      <type value="Python SDK" />
+      <version value="Python 3.6.2" />
+      <homePath value="D:\work\Envs\VueShop\Scripts\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://D:/work/Envs/VueShop/Lib" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Scripts" type="simple" />
+            <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib" type="simple" />
+            <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/DLLs" type="simple" />
+            <root url="file://D:/work/Envs/VueShop" type="simple" />
+            <root url="file://D:/work/Envs/VueShop/Lib/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/387791454" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.6" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.5" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.4" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3.3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
