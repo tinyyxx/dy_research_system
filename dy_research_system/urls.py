@@ -16,17 +16,18 @@ Including another URLconf
 from django.conf.urls import url, include
 from rest_framework.documentation import include_docs_urls
 import xadmin
-from users.models import UserProfile
 from rest_framework.routers import DefaultRouter
+from users.views import UserViewSet
+from rest_framework_jwt.views import obtain_jwt_token
 
 router = DefaultRouter()
-router.register()
-
-
+router.register(r'user', UserViewSet, base_name='user')
 
 
 urlpatterns = [
+    url(r'^', include(router.urls)),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls')),
-    url(r'docs/', include_docs_urls(title='研究系统', authentication_classes=[], permission_classes=[]))
+    url(r'docs/', include_docs_urls(title='研究系统', authentication_classes=[], permission_classes=[])),
+    url(r'^jwt_auth', obtain_jwt_token)
 ]
