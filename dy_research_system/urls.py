@@ -18,16 +18,17 @@ from rest_framework.documentation import include_docs_urls
 import xadmin
 from rest_framework.routers import DefaultRouter
 from users.views import UserViewSet
+from template.views import TemplateViewSet
 from rest_framework_jwt.views import obtain_jwt_token
 
 router = DefaultRouter()
 router.register(r'user', UserViewSet, base_name='user')
-
+router.register(r'template', TemplateViewSet, base_name='template')
 
 urlpatterns = [
     url(r'^', include(router.urls)),
     url(r'^xadmin/', xadmin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls')),
-    url(r'docs/', include_docs_urls(title='研究系统', authentication_classes=[], permission_classes=[])),
+    url(r'docs/', include_docs_urls(title='研究系统', )),#(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
     url(r'^jwt_auth', obtain_jwt_token)
 ]
