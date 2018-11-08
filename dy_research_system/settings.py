@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'users',
     'template',
     'chart',
-
+    'category',
     'xadmin',
     'crispy_forms',
     'corsheaders',
@@ -140,7 +140,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
         'rest_framework.permissions.IsAuthenticated',
-        #'utils.permissions.IsOwnerOrReadOnly',
+        'utils.permissions.IsOwnerOrReadOnly',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
@@ -150,6 +150,6 @@ REST_FRAMEWORK = {
     ),
 }
 
-# JWT_AUTH = {
-#     'JWT_RESPONSE_PAYLOAD_HANDLER': 'apps.utils.helper.jwt_response_payload_handler',     #'rest_framework_jwt.utils.jwt_response_payload_handler',
-# }
+JWT_AUTH = {
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'apps.utils.helper.jwt_response_payload_handler',
+}

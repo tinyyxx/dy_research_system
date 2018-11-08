@@ -27,14 +27,11 @@ class GlobalSettings(object):
     # menu_style = "accordion"
 
 
-class UserProfileAdmin(object):
-    list_display = ['id', 'username', 'is_superuser', 'is_active', 'email', 'mobile_phone',
-                    'date_joined', 'last_login_ip_frontend', 'last_login_ip_backend']
-
-# class VerifyCodeAdmin(object):
-#     list_display = ['code', 'mobile', "add_time"]
+# class UserProfileAdmin(object):
+#     list_display = ['id', 'username', 'is_superuser', 'is_active', 'email', 'mobile_phone',
+#                     'date_joined', 'last_login_ip_frontend', 'last_login_ip_backend']
 
 
 xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(views.CommAdminView, GlobalSettings)
-#xadmin.site.register(UserProfile, UserProfileAdmin)
+# xadmin.site.register(UserProfile, UserProfileAdmin)
