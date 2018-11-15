@@ -10,7 +10,7 @@ class CategoryModel(models.Model):
     CATEGORY_TYPE = (
         (1, "一级类目"),
         (2, "二级类目"),
-        (3, "三级类目"),
+        (3, "指标"),
     )
     name = models.CharField(default="目录名称", max_length=20, verbose_name="目录名称", help_text="目录名称")
     parent_category = models.ForeignKey("self", null=True, blank=True,  verbose_name="所属父目录", help_text="父目录",
