@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a9ce5-39f1-41a7-b1b5-72fd82048b8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/category/migrations/0003_remove_categorymodel_category_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/category/migrations/0004_categorymodel_is_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/index/migrations/0002_auto_20181116_0933.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/step/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/step/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/js/xadmin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/category/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/category/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/category/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/category/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/category/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/category/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/index/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/index/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy_research_system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dy_research_system/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dy_research_system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dy_research_system/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/step/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/step/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,18 +30,18 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="js" value="48" />
-          <entry key="py" value="5731" />
-          <entry key="py@dy_research_system" value="463" />
+          <entry key="py" value="5738" />
+          <entry key="py@dy_research_system" value="469" />
           <entry key="rnc" value="5" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="356" />
+          <entry key="CommandLine" value="362" />
           <entry key="JavaScript" value="48" />
           <entry key="PLAIN_TEXT" value="135" />
-          <entry key="Python" value="5731" />
+          <entry key="Python" value="5738" />
           <entry key="RNG Compact" value="5" />
         </counts>
       </usages-collector>
@@ -138,12 +125,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/step/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-                <marker date="1542609232162" expanded="true" signature="161:162" ph="..." />
-                <marker date="1542609232162" expanded="true" signature="161:166" ph="..." />
+                <marker date="1542609371014" expanded="true" signature="161:162" ph="..." />
+                <marker date="1542609371014" expanded="true" signature="161:166" ph="..." />
               </folding>
             </state>
           </provider>
@@ -442,16 +429,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" visible="true" weight="0.3503546" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.3503546" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.30496454" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.25957447" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.43546098" />
-      <window_info active="true" anchor="bottom" id="manage.py@dy_research_system" order="12" visible="true" weight="0.35602838" />
+      <window_info anchor="bottom" id="manage.py@dy_research_system" order="12" weight="0.35602838" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -860,12 +847,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/step/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-            <marker date="1542609232162" expanded="true" signature="161:162" ph="..." />
-            <marker date="1542609232162" expanded="true" signature="161:166" ph="..." />
+            <marker date="1542609371014" expanded="true" signature="161:162" ph="..." />
+            <marker date="1542609371014" expanded="true" signature="161:166" ph="..." />
           </folding>
         </state>
       </provider>

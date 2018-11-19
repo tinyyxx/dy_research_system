@@ -6,4 +6,5 @@ from chart.models import ChartModel
 
 class StepModel(models.Model):
     index_name = models.CharField(default="", max_length=20, verbose_name="指标名称", help_text="指标名称")
+    formula = models.CharField(default="", max_length=200, help_text="计算公式")
     user = models.ForeignKey(UserProfile, verbose_name="用户ID", on_delete=models.CASCADE)
