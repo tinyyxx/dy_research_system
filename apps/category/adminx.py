@@ -5,7 +5,7 @@ from .models import CategoryModel
 
 
 class CategoryModelAdmin(object):
-    list_display = ["name", "category_type", "parent_category"]
+    list_display = ["name", "parent_category", "is_index"]
 
 
 xadmin.site.register(CategoryModel, CategoryModelAdmin)

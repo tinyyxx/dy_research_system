@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'chart',
     'category',
     'index',
+    'step',
+
     'xadmin',
     'crispy_forms',
     'corsheaders',

@@ -28,3 +28,8 @@ class CategorySerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class GetIndexSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CategoryModel
+        fields = ["id", "name", "parent_category"]
+

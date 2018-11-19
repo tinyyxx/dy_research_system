@@ -20,7 +20,8 @@ from rest_framework.routers import DefaultRouter
 from users.views import UserViewSet
 from template.views import TemplateViewSet
 from chart.views import ChartViewSet
-from category.views import CategoryViewSet
+from category.views import CategoryViewSet, GetIndexView
+from step.views import StepViewSet
 from rest_framework_jwt.views import obtain_jwt_token
 
 router = DefaultRouter()
@@ -28,6 +29,7 @@ router.register(r'user', UserViewSet, base_name='user')
 router.register(r'template', TemplateViewSet, base_name='template')
 router.register(r'chart', ChartViewSet, base_name='chart')
 router.register(r'category', CategoryViewSet, base_name='category')
+router.register(r'step', StepViewSet, base_name='step')
 
 urlpatterns = [
     url(r'^', include(router.urls)),
@@ -35,6 +37,7 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls')),
     url(r'docs/', include_docs_urls(title='研究系统', authentication_classes=[], permission_classes=[])),
     url(r'^jwt_auth', obtain_jwt_token),
+    url(r'^getIndex/', GetIndexView .as_view()),
 ]
 
 
