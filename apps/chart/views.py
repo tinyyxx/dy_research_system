@@ -9,3 +9,4 @@ from .models import ChartModel
 class ChartViewSet(viewsets.ModelViewSet):
     queryset = ChartModel.objects.all()
     serializer_class = ChartSerializer
+

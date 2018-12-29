@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'category',
     'index',
     'step',
+    'haystack',
 
     'xadmin',
     'crispy_forms',
@@ -156,3 +157,13 @@ REST_FRAMEWORK = {
 JWT_AUTH = {
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'apps.utils.helper.jwt_response_payload_handler',
 }
+
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://192.168.1.84:9200/',  # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'dy_coalchemical_sxsypp',  # 指定elasticsearch建立的索引库的名称
+    },
+}
+
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
