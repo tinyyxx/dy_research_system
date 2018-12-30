@@ -23,3 +23,4 @@ class GetIndexView(APIView):
     def get(self, request):
         index_list = GetIndexSerializer(self.queryset, many=True)
         return Response(index_list.data)
+

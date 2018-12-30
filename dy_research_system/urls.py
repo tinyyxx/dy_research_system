@@ -24,6 +24,7 @@ from category.views import CategoryViewSet, GetIndexView
 from step.views import StepViewSet
 from rest_framework_jwt.views import obtain_jwt_token
 
+
 router = DefaultRouter()
 router.register(r'user', UserViewSet, base_name='user')
 router.register(r'template', TemplateViewSet, base_name='template')
