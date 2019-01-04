@@ -23,7 +23,7 @@ from chart.views import ChartViewSet
 from category.views import CategoryViewSet, GetIndexView
 from step.views import StepViewSet
 from rest_framework_jwt.views import obtain_jwt_token
-
+from step.views import StepDataViewSet
 
 router = DefaultRouter()
 router.register(r'user', UserViewSet, base_name='user')
@@ -31,7 +31,7 @@ router.register(r'template', TemplateViewSet, base_name='template')
 router.register(r'chart', ChartViewSet, base_name='chart')
 router.register(r'category', CategoryViewSet, base_name='category')
 router.register(r'step', StepViewSet, base_name='step')
-
+router.register(r'stepData', StepDataViewSet, base_name='stepData')
 urlpatterns = [
     url(r'^', include(router.urls)),
     url(r'^xadmin/', xadmin.site.urls),

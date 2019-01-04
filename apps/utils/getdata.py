@@ -1,36 +1,32 @@
-# from elasticsearch import Elasticsearch
-# from elasticsearch_dsl import Search
-#
-# client = Elasticsearch()
-#
-# s = Search(using=client, index="my-index")\
-#     .filter("term", category="search").query("match", title="python").exclude("match", description="beta")
-#
-# s.aggs.bucket('per_tag', 'terms', field='tags').metric('max_lines', 'max', field='lines')
-#
-# response = s.execute()
-#
-# for hit in response:
-#     print(hit.meta.score, hit.title)
-#
-# for tag in response.aggregations.per_tag.buckets:
-#     print(tag.key, tag.max_lines.value)
-import json, requests
+import json
+import requests
 
 
-def search(uri):
+def search(uri, start_date, end_date):
     """Simple Elasticsearch Query"""
     query = json.dumps({
         "query": {
-            "match_all": {}
-        }
+            "range": {
+                "date": {
+                    "gte": start_date,
+                    "lte": end_date,
+                    "time_zone": "Asia/Shanghai"
+                }
+            }
+        },
+        "size": 50,
+        "sort": [{
+            "date": {
+                "order": "asc"
+            }
+        }]
     })
     response = requests.get(uri, data=query)
     results = json.loads(response.text)
     return results
 
-res = search("http://192.168.1.84:9200/dy_coalchemical_sxsypp/_search")
-data = res["hits"]["hits"][0]["_source"]
-print(data)
-
-print(data['date'].split('T')[0])
+# res = search("http://192.168.1.84:9200/dy_coalchemical_sxsypp/_search", "2018-12-25", "now")
+# data = res["hits"]["hits"][0]["_source"]
+# print(data)
+#
+# print(data['date'].split('T')[0])

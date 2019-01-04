@@ -14,11 +14,11 @@ class StepModel(models.Model):
     frequency = models.IntegerField()
 
 
-class StepData(models.Model):
-    id = models.IntegerField(primary_key=True)
-    date = models.DateField()
-    type_name = models.CharField(max_length=30)
-    value = models.CharField(max_length=20)
+# class StepData(models.Model):
+#     id = models.IntegerField(primary_key=True)
+#     date = models.DateField()
+#     type_name = models.CharField(max_length=30)
+#     value = models.CharField(max_length=20)
     # def __init__(self, **kwargs):
     #     for field in ('id', 'date', 'n/a', 'type_name', 'value', 'crate_at', 'update_at'):
     #         setattr(self, field, kwargs.get(field, None))
